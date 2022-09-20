@@ -7,7 +7,7 @@ function randomDec(low, high){
 
 // Return a random integer b/t low (inclusive) and high (exclusive)
 function randomInt(low, high){
-    return Math.floor(randomDec(high - low));
+    return Math.floor(randomDec(low, high));
 }
 
 // Return a random rgb color- 'rgb(_, _, _)'
